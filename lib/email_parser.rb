@@ -10,8 +10,11 @@ class EmailParser
   
   
   def initialize(email)
-    @email = email
+    @emails = emails
   end
+  
+  def parse(email)
+    
   
   
 end
