@@ -15,6 +15,8 @@ class EmailParser
   
   def parse(email)
     array = @email.split(/"[,]"/)
+    array.flatten
+  end
   
   
 end
