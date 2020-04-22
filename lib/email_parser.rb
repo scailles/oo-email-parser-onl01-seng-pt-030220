@@ -9,7 +9,7 @@ class EmailParser
   attr_accessor
   
   
-  def initialize(email)
+  def initialize(emails)
     @emails = emails
   end
   
