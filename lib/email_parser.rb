@@ -12,8 +12,8 @@ def initialize(emails)
 end 
 
 def parse
-emails.split(/[,?\s]/).select{|email| email != ""}.uniq 
-
+array = emails.split(/[,?\s]/).select{|email| email != ""}.uniq 
+array
 end
   
 end
