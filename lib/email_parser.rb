@@ -4,4 +4,9 @@
 # or whitespace (' ').
 
 
-Class EmailParser
+class EmailParser
+  
+  attr_accessor
+  
+  
+  def initialize(email)
